@@ -1,0 +1,17 @@
+## Site
+title:          Felony Fun Center
+url:            felonyfuncenter.com
+description:    so much fun it ought to be a crime
+tracking:       s0996eqvw9
+
+## Compiling
+auto:           true
+server:         true
+permalink:      /blog/:title/
+markdown:       redcarpet
+pygments:       true
+future:         false
+
+## Variables
+project_license:  MIT
+disqus_shortname: absolute413
