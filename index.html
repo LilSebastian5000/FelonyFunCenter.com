@@ -1,16 +1,160 @@
----
-layout: coming_soon
----
+<!doctype html>
+<html lang-"en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Felony Fun Center</title>
 
-<table style=height:100%;text-align:center>
-<tr class=hero>
-    <td>
-        <h1>Felony Fun Center</h1>
-    </td>
-</tr>
-<tr>
-    <td style=height:100%>
-        <h2>We know it's not much to look at, but it's coming...</h2>
-    </td>
-</tr>
-</table>
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-wep-app-capable" content="yes">
+
+    <link rel="icon" href=img/favicon.ico>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Play">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="jumbotron">
+            <h1 class="text-center hidden-xs">Felony Fun Center</h1>
+        </div>
+
+        <nav class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand visible-xs" href="#">Felony Fun Center</a>
+                </div>
+                <div class="collapse navbar-collapse" id="header-navbar-collapse">
+                    <ul class="nav navbar-nav nav-justified">
+                        <!-- Attractions -->
+                        <li class="dropdown" data-category="attractions">
+                            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Attractions <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#/attractions/mini-golf">Mini Golf</a></li>
+                                <li><a href="#/attractions/laser-tag">Laser Tag</a></li>
+                                <li><a href="#/attractions/driving-range">Driving Range</a></li>
+                                <li><a href="#/attractions/arcade">Arcade</a></li>
+                                <li><a href="#/attractions/gift-shop">Gift Shop</a></li>
+                                <li><a href="#/attractions/snack-shack">Snack Shack</a></li>
+                                <li><a href="#/attractions/climbing-wall">Climbing Wall</a></li>
+                                <li><a href="#/attractions/indoor-mini-golf">Indoor Mini Gold</a></li>
+                                <li><a href="#/attractions/go-carts">Go Carts</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Parties / Groups -->
+                        <li class="dropdown" data-category="parties-groups">
+                            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Parties / Groups <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#/parties-groups/birthday-parties">Birthday Parties</a></li>
+                                <li><a href="#/parties-groups/group-packages">Group Packages</a></li>
+                                <li><a href="#/parties-groups/fundraisers">Fundraisers</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- About Us -->
+                        <li class="dropdown" data-category="about-us">
+                            <a class="dropdown-toggle" href="#" data-toggle="dropdown">About Us <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#/about-us/hours">Hours</a></li>
+                                <li><a href="#/about-us/general-faq">General FAQ</a></li>
+                                <li><a href="#/about-us/gift-cards">Gift Cards</a></li>
+                                <li><a href="#/about-us/photo-gallery">Photo Gallery</a></li>
+                                <li><a href="#/about-us/employment">Employment</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Contact Us -->
+                        <li class="dropdown" data-category="contact-us">
+                            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Contact Us <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#/contact-us/contact-information">Contact Information</a></li>
+                                <li><a href="#/contact-us/directions">Directions</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="content" id="content"><!-- pages/{{ page }}.html --></div>
+
+
+    <div class="colophon" id="colophon">
+        <div class="container">
+            <div class="row">
+                <!-- Attractions -->
+                <div class="col-xs-3">
+                    <h5>Attractions</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#/attractions/mini-golf">Mini Golf</a></li>
+                        <li><a href="#/attractions/laser-tag">Laser Tag</a></li>
+                        <li><a href="#/attractions/driving-range">Driving Range</a></li>
+                        <li><a href="#/attractions/arcade">Arcade</a></li>
+                        <li><a href="#/attractions/gift-shop">Gift Shop</a></li>
+                        <li><a href="#/attractions/snack-shack">Snack Shack</a></li>
+                        <li><a href="#/attractions/climbing-wall">Climbing Wall</a></li>
+                        <li><a href="#/attractions/indoor-mini-golf">Indoor Mini Gold</a></li>
+                        <li><a href="#/attractions/go-carts">Go Carts</a></li>
+                    </ul>
+                </div>
+
+                <!-- Parties / Groups -->
+                <div class="col-xs-3">
+                    <h5>Parties / Groups</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#/parties-groups/birthday-parties">Birthday Parties</a></li>
+                        <li><a href="#/parties-groups/group-packages">Group Packages</a></li>
+                        <li><a href="#/parties-groups/fundraisers">Fundraisers</a></li>
+                    </ul>
+                </div>
+
+                <!-- About Us -->
+                <div class="col-xs-3">
+                    <h5>About Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#/about-us/hours">Hours</a></li>
+                        <li><a href="#/about-us/general-faq">General FAQ</a></li>
+                        <li><a href="#/about-us/gift-cards">Gift Cards</a></li>
+                        <li><a href="#/about-us/photo-gallery">Photo Gallery</a></li>
+                        <li><a href="#/about-us/employment">Employment</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="col-xs-3">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#/contact-us/contact-information">Contact Information</a></li>
+                        <li><a href="#/contact-us/directions">Directions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer" id="footer">
+        <div class="container">
+            &copy; Felony Fun Center
+        </div>
+    </div>
+
+
+
+    <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
